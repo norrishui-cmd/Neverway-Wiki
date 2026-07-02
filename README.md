@@ -9,6 +9,29 @@ An unofficial English guide-site MVP for Neverway, designed for Western players 
 - `script.js` - search and filter interactions
 - `assets/neverway-hero.png` - local hero image asset
 - `.nojekyll` - keeps GitHub Pages from applying Jekyll processing
+- `sitemap.xml` and `robots.txt` - Google Search Console discovery files for `https://neverway.wiki/`
+
+## SEO URL structure
+
+The package includes dedicated static URLs for high-intent Neverway searches:
+
+- `/release-date/`
+- `/platforms/`
+- `/demo/`
+- `/beginner-guide/`
+- `/characters/`
+- `/romance/`
+- `/gifts/`
+- `/farming/`
+- `/fishing/`
+- `/cooking/`
+- `/crafting/`
+- `/combat/`
+- `/bosses/`
+- `/map/`
+- `/debt-to-death/`
+- `/settings/`
+- `/faq/`
 
 ## Deploy to GitHub Pages
 

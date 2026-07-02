@@ -399,6 +399,129 @@ button:hover {
   color: var(--muted);
 }
 
+.page-hero {
+  padding: clamp(72px, 10vw, 128px) clamp(18px, 5vw, 72px) 42px;
+  background:
+    linear-gradient(90deg, rgba(16, 19, 17, 0.96), rgba(16, 19, 17, 0.7)),
+    url("assets/neverway-hero.png") center / cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-hero .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.page-hero .breadcrumb a {
+  color: var(--amber);
+}
+
+.page-hero h1 {
+  max-width: 920px;
+  font-size: clamp(38px, 6vw, 72px);
+}
+
+.page-hero p {
+  max-width: 760px;
+  color: #e1d8c9;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.content-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 28px;
+  padding: clamp(44px, 7vw, 84px) clamp(18px, 5vw, 72px);
+}
+
+.article-body {
+  min-width: 0;
+}
+
+.article-body section {
+  padding: 0 0 34px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid var(--line);
+}
+
+.article-body section:last-child {
+  border-bottom: 0;
+}
+
+.article-body h2 {
+  font-size: clamp(26px, 3vw, 42px);
+}
+
+.article-body p,
+.article-body li {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.article-body a {
+  color: var(--amber);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-body ul,
+.article-body ol {
+  padding-left: 22px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 86px;
+  align-self: start;
+  border: 1px solid var(--line);
+  background: rgba(245, 239, 227, 0.045);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 9px 0;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}
+
+.sidebar a:first-of-type {
+  border-top: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.related-grid a {
+  display: block;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: rgba(245, 239, 227, 0.045);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.seo-note {
+  padding: 16px 18px;
+  border-left: 3px solid var(--amber);
+  background: rgba(240, 183, 101, 0.09);
+  color: #e1d8c9;
+}
+
 footer {
   padding: 24px clamp(18px, 5vw, 72px);
   border-top: 1px solid var(--line);
@@ -430,6 +553,18 @@ footer {
 
   .row.head {
     display: none;
+  }
+
+  .content-page {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
   }
 }
 
