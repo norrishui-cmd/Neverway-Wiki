@@ -10,6 +10,16 @@
     />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Neverway Guide",
+        "url": "https://neverway.wiki/",
+        "description": "Unofficial English Neverway guide site covering release info, beginner routes, characters, romance, farming, crafting, combat, resources, quests, and updates.",
+        "inLanguage": "en"
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -18,11 +28,11 @@
         <span>Neverway Guide</span>
       </a>
       <nav class="nav" aria-label="Main navigation">
+        <a href="/guides/">Guides</a>
         <a href="/release-date/">Release</a>
         <a href="/beginner-guide/">Beginner</a>
         <a href="/characters/">Characters</a>
-        <a href="/romance/">Romance</a>
-        <a href="/faq/">FAQ</a>
+        <a href="/updates/">Updates</a>
       </nav>
     </header>
 
@@ -111,34 +121,50 @@
         <div class="guide-grid">
           <article class="guide-card" data-tags="beginner farming">
             <div class="icon">SPR</div>
-            <h3>Farming and gathering</h3>
+            <h3><a href="/farming/">Farming and gathering</a></h3>
             <p>Crop seasons, profits, growth days, watering rhythm, wild resources, and refresh rules.</p>
           </article>
           <article class="guide-card" data-tags="crafting economy">
             <div class="icon">CRF</div>
-            <h3>Crafting and economy</h3>
+            <h3><a href="/crafting/">Crafting and economy</a></h3>
             <p>Crafting stations, recipes, sell value, material routes, and debt repayment priorities.</p>
           </article>
           <article class="guide-card" data-tags="combat boss">
             <div class="icon">BAT</div>
-            <h3>Combat and bosses</h3>
+            <h3><a href="/combat/">Combat and bosses</a></h3>
             <p>Weapons, dodging, status effects, boss patterns, prep checklists, and risk zones.</p>
           </article>
           <article class="guide-card" data-tags="romance characters">
             <div class="icon">NPC</div>
-            <h3>Characters and romance</h3>
+            <h3><a href="/romance/">Characters and romance</a></h3>
             <p>NPC profiles, gift preferences, heart events, relationship routes, and ending branches.</p>
           </article>
           <article class="guide-card" data-tags="map secrets">
             <div class="icon">MAP</div>
-            <h3>Maps and secrets</h3>
+            <h3><a href="/map/">Maps and secrets</a></h3>
             <p>Area unlocks, hidden rooms, fishing spots, shortcuts, hazards, and collectible routes.</p>
           </article>
           <article class="guide-card" data-tags="news release">
             <div class="icon">LOG</div>
-            <h3>Release and updates</h3>
+            <h3><a href="/updates/">Release and updates</a></h3>
             <p>Release date, demo notes, patch logs, storefront links, platform differences, and FAQ.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="eyebrow">Coverage Map</p>
+          <h2>What this type of guide site must cover</h2>
+          <p>A horror life sim RPG needs both cozy-game utility pages and RPG-style progression pages. The strongest SEO structure is a hub-and-spoke model where every system page links to practical walkthroughs, databases, and spoiler-controlled late-game guides.</p>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card"><div class="icon">HUB</div><h3><a href="/guides/">Guide index</a></h3><p>One crawlable hub that groups all beginner, system, character, and completionist pages.</p></article>
+          <article class="guide-card"><div class="icon">RUN</div><h3><a href="/walkthrough/">Walkthrough</a></h3><p>Step-by-step progression route for players who want structure without heavy spoilers.</p></article>
+          <article class="guide-card"><div class="icon">QST</div><h3><a href="/quests/">Quests</a></h3><p>Quest triggers, objectives, blockers, rewards, and NPC requirements once verified.</p></article>
+          <article class="guide-card"><div class="icon">RES</div><h3><a href="/resources/">Resources</a></h3><p>Material locations, farming routes, crafting uses, sell value, and gift relevance.</p></article>
+          <article class="guide-card"><div class="icon">ACH</div><h3><a href="/achievements/">Achievements</a></h3><p>Achievement and completion checklist for long-tail search after launch.</p></article>
+          <article class="guide-card"><div class="icon">END</div><h3><a href="/endings/">Endings</a></h3><p>Spoiler-marked ending and choice coverage separated from beginner-safe pages.</p></article>
         </div>
       </section>
 
@@ -225,6 +251,21 @@
             <span class="tag">Goal</span>
             <h3><a href="/debt-to-death/">Debt to Death and money-making priorities</a></h3>
             <p>Frames the economy around the core objective: when to earn money, when to upgrade, and when to push exploration.</p>
+          </article>
+          <article data-category="beginner" data-search="walkthrough progression route day week quests story">
+            <span class="tag">Route</span>
+            <h3><a href="/walkthrough/">Neverway walkthrough and progression route</a></h3>
+            <p>A spoiler-light route page for players who want direction through farming, quests, exploration, and upgrades.</p>
+          </article>
+          <article data-category="systems" data-search="resources materials locations drops crafting database">
+            <span class="tag">Database</span>
+            <h3><a href="/resources/">Resources and material locations</a></h3>
+            <p>A future database for material sources, refresh rules, crafting uses, gift value, and sell decisions.</p>
+          </article>
+          <article data-category="systems" data-search="achievements trophies completion collection ending checklist">
+            <span class="tag">Completion</span>
+            <h3><a href="/achievements/">Achievements and completion checklist</a></h3>
+            <p>Targets post-launch completionist traffic with achievements, collectibles, endings, and missable tasks.</p>
           </article>
         </div>
       </section>

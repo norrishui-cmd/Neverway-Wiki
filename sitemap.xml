@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://neverway.wiki/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://neverway.wiki/guides/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://neverway.wiki/release-date/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://neverway.wiki/platforms/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/demo/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://neverway.wiki/beginner-guide/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://neverway.wiki/walkthrough/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://neverway.wiki/quests/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/characters/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://neverway.wiki/romance/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://neverway.wiki/gifts/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://neverway.wiki/resources/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://neverway.wiki/farming/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/fishing/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/cooking/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -16,6 +20,9 @@
   <url><loc>https://neverway.wiki/bosses/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/map/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://neverway.wiki/debt-to-death/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://neverway.wiki/achievements/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://neverway.wiki/endings/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
   <url><loc>https://neverway.wiki/settings/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://neverway.wiki/updates/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://neverway.wiki/faq/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 </urlset>

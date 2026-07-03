@@ -16,12 +16,16 @@ An unofficial English guide-site MVP for Neverway, designed for Western players 
 The package includes dedicated static URLs for high-intent Neverway searches:
 
 - `/release-date/`
+- `/guides/`
 - `/platforms/`
 - `/demo/`
 - `/beginner-guide/`
+- `/walkthrough/`
+- `/quests/`
 - `/characters/`
 - `/romance/`
 - `/gifts/`
+- `/resources/`
 - `/farming/`
 - `/fishing/`
 - `/cooking/`
@@ -30,7 +34,10 @@ The package includes dedicated static URLs for high-intent Neverway searches:
 - `/bosses/`
 - `/map/`
 - `/debt-to-death/`
+- `/achievements/`
+- `/endings/`
 - `/settings/`
+- `/updates/`
 - `/faq/`
 
 ## Deploy to GitHub Pages
