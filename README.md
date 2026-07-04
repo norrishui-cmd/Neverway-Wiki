@@ -17,11 +17,15 @@ The package includes dedicated static URLs for high-intent Neverway searches:
 
 - `/release-date/`
 - `/guides/`
+- `/prologue/`
 - `/platforms/`
 - `/demo/`
+- `/controls/`
 - `/beginner-guide/`
 - `/walkthrough/`
 - `/quests/`
+- `/montgomery-island/`
+- `/neverway-realm/`
 - `/characters/`
 - `/romance/`
 - `/gifts/`
@@ -30,6 +34,9 @@ The package includes dedicated static URLs for high-intent Neverway searches:
 - `/fishing/`
 - `/cooking/`
 - `/crafting/`
+- `/building/`
+- `/sellmart/`
+- `/mortgage/`
 - `/combat/`
 - `/bosses/`
 - `/map/`
