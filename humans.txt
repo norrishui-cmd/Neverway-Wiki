@@ -1,0 +1,6 @@
+﻿Neverway Guide
+Site: https://neverway.wiki/
+Status: Unofficial fan guide prototype
+Language: English
+Editorial policy: https://neverway.wiki/editorial-policy/
+Official sources hub: https://neverway.wiki/official-sources/

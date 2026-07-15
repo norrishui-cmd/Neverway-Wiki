@@ -1,0 +1,18 @@
+﻿# Neverway Guide
+
+Neverway Guide is an unofficial English guide and wiki-style resource for Neverway.
+
+Canonical site: https://neverway.wiki/
+Sitemap: https://neverway.wiki/sitemap.xml
+
+High-value hubs:
+- https://neverway.wiki/guides/
+- https://neverway.wiki/release-date/
+- https://neverway.wiki/prologue/
+- https://neverway.wiki/beginner-guide/
+- https://neverway.wiki/characters/
+- https://neverway.wiki/romance/
+- https://neverway.wiki/resources/
+- https://neverway.wiki/official-sources/
+
+Policy: pre-release pages avoid inventing unverified item values, quest outcomes, gift preferences, or boss drops.

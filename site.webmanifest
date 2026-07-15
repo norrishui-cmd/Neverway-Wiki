@@ -1,0 +1,9 @@
+﻿{
+  "name": "Neverway Guide",
+  "short_name": "Neverway Guide",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101311",
+  "theme_color": "#101311",
+  "icons": [{"src":"/assets/favicon.svg","sizes":"64x64","type":"image/svg+xml"}]
+}
