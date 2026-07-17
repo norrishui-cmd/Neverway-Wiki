@@ -1,6 +1,10 @@
-# Neverway Guide MVP
+# Neverway Guide
 
-An unofficial English guide-site MVP for Neverway, designed for Western players and ready for static hosting on GitHub Pages.
+An unofficial, evidence-led English guide for Neverway, ready for static hosting on GitHub Pages.
+
+## SEO build and audit
+
+Run `node scripts/build-seo-pages.mjs` to regenerate the first evidence-led page set and sitemap. Run `node scripts/seo-audit.mjs` to find thin pages, duplicate metadata, missing H1/canonical tags, weak internal linking, invalid JSON-LD, and placeholder language. See `SEO-ROADMAP.md` for the controlled path to 2,000 quality URLs.
 
 ## What is included
 

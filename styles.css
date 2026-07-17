@@ -588,6 +588,21 @@ footer {
   background: #0d110f;
 }
 
+.quick-answer {
+  border: 1px solid rgba(207, 231, 190, 0.32);
+  border-left: 4px solid #b9d99f;
+  background: rgba(185, 217, 159, 0.08);
+  padding: 1.1rem 1.25rem;
+  border-radius: 0.75rem;
+}
+
+.article-body code {
+  padding: 0.12rem 0.38rem;
+  border-radius: 0.3rem;
+  background: rgba(255, 255, 255, 0.1);
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 980px) {
   .intel-band,
   .timeline,
