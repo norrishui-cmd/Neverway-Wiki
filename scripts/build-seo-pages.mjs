@@ -1,9 +1,10 @@
 import { mkdir, writeFile, readFile, readdir, stat } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
+import { phase2Pages } from './phase2-pages.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const site = 'https://neverway.wiki';
-const updated = 'July 17, 2026';
+const updated = 'July 18, 2026';
 
 const pages = [
   {
@@ -59,7 +60,7 @@ const pages = [
       ['Where to download the Prologue', `<p>Open the <a href="https://store.steampowered.com/app/2318330/Neverway/" rel="noreferrer">official Neverway Steam page</a> and use the <strong>Download Neverway Prologue</strong> button. The Prologue is a free preview, not the full October release. The official site also links players to the same public Prologue.</p><p>Steam currently lists the full game as unreleased. Wishlist the main game separately if you want a launch notification.</p>`],
       ['What the Prologue is for', '<p>The Prologue introduces Fiona and the tone of the story before the broader farm and life-sim structure opens up. Treat it as a story-led preview rather than a complete farming sandbox. Progress, content limits, and balance can differ from the final build.</p><p>Before playing, check the minimum PC requirements and choose a controller or remapped keyboard setup. If the game does not open, use the developer-published launch-option fixes linked below.</p>'],
       ['Most useful Prologue help', cards([
-        ['/demo/game-wont-launch/','Fix a launch failure'], ['/demo/change-controls/','Change controls'], ['/demo/mouse-support/','Use mouse buttons'], ['/demo/system-requirements/','Check PC requirements'], ['/demo/how-long/','Prologue and full-game length'], ['/demo/save-transfer/','Save transfer status']
+        ['/demo/game-wont-launch/','Fix a launch failure'], ['/demo/change-controls/','Change controls'], ['/demo/mouse-support/','Use mouse buttons'], ['/demo/system-requirements/','Check PC requirements'], ['/demo/how-long/','Prologue and full-game length'], ['/demo/save-transfer/','Save transfer status'], ['/demo/patches/','Prologue patch index']
       ])]
     ],
     faq: [['Is Neverway playable now?','Yes. The free Prologue is playable on Steam; the full game is planned for October 2026.'],['Is the Prologue the full game?','No. It is a limited story preview of the unreleased full game.'],['Is the Prologue on Nintendo Switch?','The public download currently promoted by the official site is the Steam Prologue. A Switch Prologue has not been announced on the official pages checked for this update.']],
@@ -221,6 +222,8 @@ const pages = [
   }
 ];
 
+pages.push(...phase2Pages);
+
 function cards(items) { return `<div class="related-grid">${items.map(([href,text])=>`<a href="${href}">${text}</a>`).join('')}</div>`; }
 function officialSources() { return [
   ['Official Neverway site','https://neverwaygame.com/'],
@@ -278,7 +281,7 @@ async function walkHtml(dir){
   }
 }
 await walkHtml(root);
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapPaths].sort().map(path=>`  <url><loc>${site}${path}</loc><lastmod>2026-07-17</lastmod></url>`).join('\n')}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapPaths].sort().map(path=>`  <url><loc>${site}${path}</loc><lastmod>2026-07-18</lastmod></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(resolve(root,'sitemap.xml'), sitemap);
 
 console.log(`Generated ${pages.length} evidence-led pages and ${sitemapPaths.size} sitemap URLs.`);

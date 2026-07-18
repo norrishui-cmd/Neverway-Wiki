@@ -6,6 +6,8 @@ An unofficial, evidence-led English guide for Neverway, ready for static hosting
 
 Run `node scripts/build-seo-pages.mjs` to regenerate the first evidence-led page set and sitemap. Run `node scripts/seo-audit.mjs` to find thin pages, duplicate metadata, missing H1/canonical tags, weak internal linking, invalid JSON-LD, and placeholder language. See `SEO-ROADMAP.md` for the controlled path to 2,000 quality URLs.
 
+Phase 2 adds official Prologue patch/fix coverage and restores verified core hubs. See `SEO-PHASE-2-REPORT.md` for counts, validation, and the next expansion batch.
+
 ## What is included
 
 - `index.html` - the full guide landing page and content hub
