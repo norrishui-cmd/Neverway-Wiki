@@ -1,29 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://neverway.wiki/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/building/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/characters/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/characters/fang/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/characters/fiona/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/combat/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/controls/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/cooking/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/crafting/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/black-palette-fix/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/bridge-enemies-respawn/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/change-controls/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/directx-12-crash/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/game-wont-launch/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/how-long/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/ijkl-controls/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/item-duplication-fix/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/macos-crash/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/mouse-cursor-confined/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/mouse-support/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/patch-3/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/patch-4/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/patches/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/save-transfer/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/stuck-after-bathtub/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/demo/system-requirements/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/demo/window-resize-crash/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/faq/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/farming/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/features/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/features/languages/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/features/multiplayer/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/features/steam-cloud/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/features/story-length/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/features/time-system/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/fishing/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/guides/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/montgomery-island/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/mortgage/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/neverway-realm/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/platforms/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/platforms/nintendo-switch/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/platforms/pc/</loc><lastmod>2026-07-18</lastmod></url>
@@ -33,6 +50,7 @@
   <url><loc>https://neverway.wiki/prologue/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/release-date/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/romance/</loc><lastmod>2026-07-18</lastmod></url>
+  <url><loc>https://neverway.wiki/sellmart/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/updates/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/world/</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://neverway.wiki/world/simulation/</loc><lastmod>2026-07-18</lastmod></url>

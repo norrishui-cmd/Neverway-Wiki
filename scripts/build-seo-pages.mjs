@@ -1,6 +1,7 @@
 import { mkdir, writeFile, readFile, readdir, stat } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { phase2Pages } from './phase2-pages.mjs';
+import { phase3Pages } from './phase3-pages.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const site = 'https://neverway.wiki';
@@ -15,7 +16,8 @@ const pages = [
     sections: [
       ['Prologue and troubleshooting', cards([['/demo/','Prologue overview'],['/demo/game-wont-launch/','Game will not launch'],['/demo/change-controls/','Change controls'],['/demo/mouse-support/','Mouse support'],['/demo/system-requirements/','PC requirements'],['/demo/save-transfer/','Save transfer status']])],
       ['Release and platforms', '<p>Neverway has an October 2026 release window for PC and Nintendo Switch. No exact day, PS5 version, Xbox version, or Game Pass release is announced. Use the focused pages below for the latest verified status.</p>'+cards([['/release-date/','Release date'],['/platforms/','Platform hub'],['/platforms/pc/','PC and Steam'],['/platforms/nintendo-switch/','Nintendo Switch'],['/platforms/ps5/','PS5 status'],['/platforms/xbox/','Xbox status'],['/platforms/steam-deck/','Steam Deck status']])],
-      ['Gameplay and story', '<p>The official feature set includes farming, fishing, crafting, decorating, relationships with 10+ characters, and top-down action combat. The developers estimate about 20 hours for the main story and describe it as a game with a beginning and an end.</p>'+cards([['/features/','Features overview'],['/features/multiplayer/','Single-player status'],['/features/story-length/','Ending and post-game status'],['/demo/how-long/','Story length'],['/faq/','Verified FAQ']])]
+      ['Gameplay and story', '<p>The official feature set includes farming, fishing, crafting, decorating, relationships with 10+ characters, and top-down action combat. The developers estimate about 20 hours for the main story and describe it as a game with a beginning and an end.</p>'+cards([['/features/','Features overview'],['/features/multiplayer/','Single-player status'],['/features/story-length/','Ending and post-game status'],['/demo/how-long/','Story length'],['/faq/','Verified FAQ']])],
+      ['Island systems', '<p>These hubs cover confirmed systems without publishing unverified item, recipe, price, or schedule leaves.</p>'+cards([['/montgomery-island/','Montgomery Island'],['/farming/','Farming'],['/fishing/','Fishing'],['/crafting/','Crafting'],['/cooking/','Cooking'],['/building/','Building'],['/sellmart/','Sellmart'],['/mortgage/','Mortgage'],['/neverway-realm/','Neverway realm']])]
     ], faq: [['Where should new players start?','Use the free Prologue hub, then check controls, requirements, and launch fixes.'],['Are all database pages open?','No. Item, quest, character, and route pages remain out of the index until their facts are verified.']], sources: officialSources()
   },
   {
@@ -223,6 +225,7 @@ const pages = [
 ];
 
 pages.push(...phase2Pages);
+pages.push(...phase3Pages);
 
 function cards(items) { return `<div class="related-grid">${items.map(([href,text])=>`<a href="${href}">${text}</a>`).join('')}</div>`; }
 function officialSources() { return [

@@ -8,6 +8,8 @@ Run `node scripts/build-seo-pages.mjs` to regenerate the first evidence-led page
 
 Phase 2 adds official Prologue patch/fix coverage and restores verified core hubs. See `SEO-PHASE-2-REPORT.md` for counts, validation, and the next expansion batch.
 
+Phase 3 restores confirmed island-system hubs and adds precise Patch 3/4 troubleshooting pages. See `SEO-PHASE-3-REPORT.md`.
+
 ## What is included
 
 - `index.html` - the full guide landing page and content hub
