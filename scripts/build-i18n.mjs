@@ -80,3 +80,5 @@ const urls=[]; for(const row of rows){const en=row.path?`${base}/${row.path}/`:`
 const sm=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(([loc,,path])=>`  <url><loc>${loc}</loc><xhtml:link rel="alternate" hreflang="en" href="${base}/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="ja" href="${base}/ja/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="es" href="${base}/es/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="x-default" href="${base}/${path?path+'/':''}"/></url>`).join('\n')}\n</urlset>\n`;await writeFile(resolve(root,'sitemap.xml'),sm);
 console.log(`Built ${rows.length*2} localized pages and ${urls.length} sitemap URLs.`);
 await import('./build-news.mjs');
+// Run a final pass after every downstream generator has finished writing pages.
+await import('./configure-language-dropdown.mjs?final-pass');
