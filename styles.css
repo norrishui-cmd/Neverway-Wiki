@@ -77,6 +77,33 @@ a {
   color: var(--ink);
 }
 
+.news-module {
+  margin-top: 44px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.news-grid {
+  margin-top: 22px;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card .text-link {
+  margin-top: auto;
+  padding-top: 14px;
+  color: var(--amber);
+  font-weight: 800;
+}
+
+.news-meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .hero {
   position: relative;
   min-height: clamp(560px, 88vh, 820px);

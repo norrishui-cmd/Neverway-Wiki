@@ -79,4 +79,4 @@ for(const row of rows){const file=resolve(root,row.path,'index.html');let source
 const urls=[]; for(const row of rows){const en=row.path?`${base}/${row.path}/`:`${base}/`;urls.push([en,'en',row.path]);for(const l of ['ja','es'])urls.push([`${base}/${l}/${row.path?row.path+'/':''}`,l,row.path]);}
 const sm=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(([loc,,path])=>`  <url><loc>${loc}</loc><xhtml:link rel="alternate" hreflang="en" href="${base}/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="ja" href="${base}/ja/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="es" href="${base}/es/${path?path+'/':''}"/><xhtml:link rel="alternate" hreflang="x-default" href="${base}/${path?path+'/':''}"/></url>`).join('\n')}\n</urlset>\n`;await writeFile(resolve(root,'sitemap.xml'),sm);
 console.log(`Built ${rows.length*2} localized pages and ${urls.length} sitemap URLs.`);
-await import('./configure-adsense.mjs');
+await import('./build-news.mjs');
