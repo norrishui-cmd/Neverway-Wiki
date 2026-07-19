@@ -91,4 +91,4 @@ for(const tab of Object.keys(picks))for(const locale of ['en','ja','es']){const 
 
 let sitemap=await readFile(resolve(root,'sitemap.xml'),'utf8');sitemap=sitemap.replace(/\s*<!-- FAQ URLS START -->[\s\S]*?<!-- FAQ URLS END -->\s*/g,'\n');const entries=[];for(const item of faqs)for(const locale of ['en','ja','es']){const loc=base+p(item,locale);entries.push(`  <url><loc>${loc}</loc><lastmod>2026-07-19</lastmod><xhtml:link rel="alternate" hreflang="en" href="${base+p(item,'en')}"/><xhtml:link rel="alternate" hreflang="ja" href="${base+p(item,'ja')}"/><xhtml:link rel="alternate" hreflang="es" href="${base+p(item,'es')}"/><xhtml:link rel="alternate" hreflang="x-default" href="${base+p(item,'en')}"/></url>`)}const block=`<!-- FAQ URLS START -->\n${entries.join('\n')}\n<!-- FAQ URLS END -->\n`;sitemap=sitemap.replace('</urlset>',block+'</urlset>');await writeFile(resolve(root,'sitemap.xml'),sitemap);
 console.log(`Built ${faqs.length} FAQs across 3 languages (${faqs.length*3} URLs).`);
-await import('./configure-adsense.mjs');
+await import('./build-game-data.mjs');

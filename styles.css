@@ -115,6 +115,16 @@ a {
   margin-top: 28px;
 }
 
+.game-data-module {
+  margin-top: 44px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.game-data-module > .related-grid {
+  margin-top: 22px;
+}
+
 .hero {
   position: relative;
   min-height: clamp(560px, 88vh, 820px);
