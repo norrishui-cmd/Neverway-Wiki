@@ -104,6 +104,17 @@ a {
   font-size: 13px;
 }
 
+.faq-directory,
+.related-faq-module {
+  margin-top: 44px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.faq-directory > section + section {
+  margin-top: 28px;
+}
+
 .hero {
   position: relative;
   min-height: clamp(560px, 88vh, 820px);

@@ -65,4 +65,4 @@ for(const tab of ['guides','release-date','demo','platforms','characters','faq']
 
 let sitemap=await readFile(resolve(root,'sitemap.xml'),'utf8');sitemap=sitemap.replace(/\s*<!-- NEWS URLS START -->[\s\S]*?<!-- NEWS URLS END -->\s*/g,'\n');const entries=[];for(const item of news)for(const locale of ['en','ja','es']){const loc=base+localizedPath(item,locale);entries.push(`  <url><loc>${loc}</loc><lastmod>2026-07-19</lastmod><xhtml:link rel="alternate" hreflang="en" href="${base+localizedPath(item,'en')}"/><xhtml:link rel="alternate" hreflang="ja" href="${base+localizedPath(item,'ja')}"/><xhtml:link rel="alternate" hreflang="es" href="${base+localizedPath(item,'es')}"/><xhtml:link rel="alternate" hreflang="x-default" href="${base+localizedPath(item,'en')}"/></url>`)}const block=`<!-- NEWS URLS START -->\n${entries.join('\n')}\n<!-- NEWS URLS END -->\n`;sitemap=sitemap.replace('</urlset>',block+'</urlset>');await writeFile(resolve(root,'sitemap.xml'),sitemap);
 console.log(`Built ${news.length} news topics across 3 languages (${news.length*3} URLs).`);
-await import('./configure-adsense.mjs');
+await import('./build-faqs.mjs');
